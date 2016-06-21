@@ -1,0 +1,35 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.wrapper-fluid{
+  background: url('../images/21444_james_bond.jpg');
+  background-size: cover;
+}
+h1{
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+//Button
+.btn{
+  margin: 50vh auto;
+  width: 160px;
+  height: 75px;
+  display: inherit;
+  background: red;
+  font-weight: bolder;
+  color: black;
+}
